@@ -1,4 +1,6 @@
 .App {
+  display: flex;
+  flex-direction: row;
   text-align: center;
 }
 
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+.cabecera {
+  background-color: #e3f245;
+  height: 100px;
+  text-align: center;
+}
+
+.container {
+  background-color: #e3f2fd;
+  width: 60%;
+  height: 300px;
+}
+
+.footer {
+  background-color: #03243b;
+  height: 150px;text-align: center;
+}
+
+.sidenav {
+  width: 30%;
+  background-color: aquamarine;
 }
